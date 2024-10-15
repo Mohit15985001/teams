@@ -3,33 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Static Data Tab</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-        h1 {
-            color: #0078d4;
-        }
-        .data-container {
-            background-color: #f3f2f1;
-            padding: 10px;
-            border-radius: 5px;
-        }
-    </style>
+    <title>Notification Settings</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to Your Teams Tab</h1>
-    <div class="data-container">
-        <h2>Hardcoded Data Example</h2>
-        <p>Here is some static data that is hardcoded into this tab:</p>
-        <ul>
-            <li>Item 1: Team information goes here.</li>
-            <li>Item 2: Latest updates for the project.</li>
-            <li>Item 3: Key contacts and support details.</li>
-            <li>Item 4: Important dates and events.</li>
-        </ul>
+    <div class="container">
+        <h2>Notifications</h2>
+        <div class="notification-section">
+            <label for="notification-toggle">
+                <input type="checkbox" id="notification-toggle" checked>
+                Receive Concur Expense notifications in Microsoft Teams.
+            </label>
+        </div>
+        <hr class="divider">
     </div>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
